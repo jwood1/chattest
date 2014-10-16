@@ -1,0 +1,16 @@
+Django
+django-extensions
+Fabric
+Werkzeug
+South
+django-compressor
+djangorestframework
+dj-database-url
+psycopg2
+django-storages
+boto
+BeautifulSoup
+splinter
+django-waffle
+django-nose
+pytz

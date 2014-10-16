@@ -1,0 +1,10 @@
+*.pyc
+*.pyo
+env/
+dist/
+.sass-cache/
+*.db
+.coverage*
+htmlcov
+.noseids
+static/bowser_components/
