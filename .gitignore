@@ -1,5 +1,6 @@
 *.pyc
 *.pyo
+.idea/
 env/
 dist/
 .sass-cache/
@@ -7,4 +8,4 @@ dist/
 .coverage*
 htmlcov
 .noseids
-static/bowser_components/
+static/bower_components/
