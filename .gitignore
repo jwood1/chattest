@@ -8,4 +8,4 @@ dist/
 .coverage*
 htmlcov
 .noseids
-static/bowser_components/
+static/bower_components/
