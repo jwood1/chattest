@@ -12,7 +12,7 @@ urlpatterns = patterns('',
     url(r'^admin/?', include(admin.site.urls)),
     url(r'^favicon.ico$', RedirectView.as_view(url='/static/favicon.ico')),
 
-    url(r'^api', include(api.urls)),
+    url(r'^api', include("api.urls")),
 
     # log in, log out routes.
     url(r'^auth/?', auth, name='auth'),
