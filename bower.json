@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "1.10.1",
+    "angular": "1.0.8",
+    "json3": "latest",
+    "es5-shim": "latest",
+    "angular-resource": "latest",
+    "angular-route": "latest",
+    "angular-cookies": "latest",
+    "angular-pubnub": "latest",
+    "angular-sanitize": "latest",
+    "pubnub-angular": "latest",
+    "pubnub": "latest"
+  },
+  "devDependencies": {
+    "angular-mocks": "latest",
+    "angular-scenario": "latest"
+  }
+}

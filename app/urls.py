@@ -3,7 +3,8 @@ from django.views.generic import RedirectView
 # Enable the admin site
 from django.contrib import admin
 from views import auth, vlogout, index, register
-from app import api
+import app
+from app.api import urls as apiurls
 admin.autodiscover()
 
 
@@ -12,7 +13,7 @@ urlpatterns = patterns('',
     url(r'^admin/?', include(admin.site.urls)),
     url(r'^favicon.ico$', RedirectView.as_view(url='/static/favicon.ico')),
 
-    url(r'^api', include(api.urls)),
+    url(r'^api', include(apiurls)),
 
     # log in, log out routes.
     url(r'^auth/?', auth, name='auth'),
