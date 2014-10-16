@@ -27,14 +27,13 @@
 
         <!-- NAVBAR
         ================================================== -->
-        <div class="ng-include: '/static/views/nav.html'"></div>
+        <div class="ng-include: '/static/views/_nav.html'"></div>
 
         <div class="container" ng-view></div>
 
         <script src="{% url 'wafflejs' %}"></script>
         {% compress js %}
-        <script type="text/javascript" src="/static/bower_components/jquery/dist/jquery.js"></script>
-        <script type="text/javascript" src="/static/bower_components/angular/angular.js"></script>
+        <script type="text/javascript" src="/static/vendor/angular.js"></script>
         <script type="text/javascript" src="/static/bower_components/pubnub-angular/lib/pubnub-angular.js"></script>
         <script type="text/javascript" src="/static/app.js"></script>
         <script type="text/javascript" src="/static/controllers/main.js"></script>
@@ -54,6 +53,8 @@
         <script type="text/ng-template" src="/static/views/register.html"></script>
 
         {% endcompress %}
+            <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+            <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="https://cdn.pubnub.com/pubnub.min.js"></script>
         <script src="https://cdn.pubnub.com/pubnub-crypto.min.js"></script>
 

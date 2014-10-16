@@ -12,10 +12,11 @@ if (waffle.switch_is_active('Login')) {
     }]);
 }
 
-App.controller('LoginCtrl', function($scope, $http, $location, $rootScope) {
+App.controller('LoginCtrl', function($route, $scope, $http, $location, $rootScope) {
   $scope.login = function() {
     $scope.error = false;
     $scope.loading = true;
+
 
     $http.get('/auth', {
       headers: {
@@ -29,6 +30,9 @@ App.controller('LoginCtrl', function($scope, $http, $location, $rootScope) {
       }]);
 
       $location.path("/");
+
+
+
     }).
     error(function(data, status) {
       $scope.error = true;

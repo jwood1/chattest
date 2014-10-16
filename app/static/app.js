@@ -8,10 +8,7 @@ var App = angular.module('App', ["pubnub.angular.service"])
         }).when('/chat', {
           templateUrl: '/static/views/chat.html',
           controller: 'ChatCtrl'
-      }).when('/', {
-          templateUrl: '/static/views/main.html',
-          controller: 'MainCtrl'
-        });
+      })
     }]);
 
 App.directive('activeLink', ['$location', function(location) {

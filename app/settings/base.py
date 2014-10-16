@@ -155,7 +155,8 @@ INSTALLED_APPS = (
     'rest_framework',
     'rest_framework.authtoken',  # Rest Framework API Token authentication
     'compressor',
-    'app'
+    'app',
+    'app.api'
 )
 
 # Allow query strings to override waffle
