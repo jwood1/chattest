@@ -3,7 +3,7 @@ import os
 # Django settings for hammer project.
 ENV = os.environ.get('ENV', 'development').lower()
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-
+ALLOWED_HOSTS='*'
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 

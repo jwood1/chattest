@@ -1,1 +1,1 @@
-web: python -B manage.py runserver 0.0.0.0:$PORT
+web: python -B manage.py runserver 192.168.1.15:$PORT
