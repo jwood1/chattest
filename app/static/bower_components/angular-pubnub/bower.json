@@ -1,8 +1,0 @@
-{
-  "name": "angular-pubnub",
-  "version": "0.0.8",
-  "main": "angular-pubnub.js",
-  "dependencies": {
-    "angular": "~1.2.0-rc.2"
-  }
-}
